@@ -1,4 +1,3 @@
-```
 # README
 # TP1 - Points à l'intérieur d'un polygone
 
@@ -32,7 +31,3 @@ python3 main.py
   - Des points de couleur jaune pour les points étant sur une bordure du polygone.
   <br>
 - Des informations complémentaires dans le terminal permettant de connaître le nombre de points qui ont été coloré ainsi que le temps qui a été nécessaire pour réaliser les calculs.
-```
-
-Petite question, tu penses y'a moyen que tu regarde si y'a des fautes ou quoi car j'ai l'impression que y'en a de partout 
-Et aussi si j'ai oublié un truc important
