@@ -82,7 +82,7 @@ def transform_svg(inputFilename, outputFilename):
     outside = 0
     border = 0
 
-    max_x = int(root.attrib.get('width', 0))
+    max_x = int(root.attrib.get('width', 0)) + 1
 
     # Process each point and color accordingly
     t1 = time.time()
