@@ -1,33 +1,29 @@
 # README
-# TP1 - Points à l'intérieur d'un polygone
+# TP1 - Points Inside a Polygon
 
-## <u>Explication de Compilation :</u>
+## <u>Compilation Explanation:</u>
 
-Afin de pouvoir lancer le programme, dans un terminal placez vous dans le répertoire où se situe le fichier __main.py__ à l'aide de la commande __cd <nom_du_dossier>.__
+To run the program, open a terminal and navigate to the directory where the file __main.py__ is located using the command __cd <folder_name>__.
 
-Ensuite, il faut installer __python3__ s'il n'est pas déja installé à l'aide de la commande suivante :
-<b>
-``` bash
+Next, make sure __python3__ is installed. If it isn't, install it using the following command:
+```bash
 sudo apt install python3
 ```
-</b>
 
-## <u>Execution :</u>
+## <u>Execution:</u>
 
-Une fois dans le répertoire où se trouve le fichier __main.py__, lancez la commande suivante :
-<b>
-``` bash
+Once in the directory containing the file __main.py__, run the following command:
+```bash
 python3 main.py
 ```
-</b>
 
-## <u>Production :</u>
+## <u>Output:</u>
 
-<u>Une fois le programme exécuté, plusieurs résultats seront visibles :</u>
+<u>After executing the program, several results will be generated:</u>
 
-- Une image nommée __output.svg__ qui sera créée dans le dossier __out__ ayant plusieurs propriétés :
-  - Des points de couleur verte pour les points étant dans le polygone.
-  - Des points de couleur rouge pour les points étant en dehors du polygone.
-  - Des points de couleur jaune pour les points étant sur une bordure du polygone.
-  <br>
-- Des informations complémentaires dans le terminal permettant de connaître le nombre de points qui ont été coloré ainsi que le temps qui a été nécessaire pour réaliser les calculs.
+- An image named __output.svg__ will be created in the __out__ folder with the following properties:
+  - Green points represent points inside the polygon.
+  - Red points represent points outside the polygon.
+  - Yellow points represent points on the edges of the polygon.
+
+- Additional information will be displayed in the terminal, including the number of points processed and the time taken to perform the calculations.
